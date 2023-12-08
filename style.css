@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1090px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 39px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation li a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navigation li a:hover {
+    color: #DE2E54;
+    transition: 0.5s ease-in-out;
+}
+
+.navigation {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid #DE2E54;
+    background: transparent;
+    color: #DE2E54;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.button:hover {
+    transition: 0.5s ease-in-out;
+    color: #FFF;
+    background: rgba(222, 46, 84, 0.80);
+}
+
+.tabiy-left h1 {
+    width: 500px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+
+}
+
+.tabiy-left p {
+    width: 440px;
+    height: 103.347px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.tabiy-wrap {
+    display: flex;
+    gap: 200px;
+}
+
+.tabiy {
+    margin-top: 25px;
+    padding-top: 170px;
+    background-image: url(./image\ 4.png)  ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+.xizmat {
+    padding-top: 70px;
+    padding-bottom: 182px;
+    position: relative;
+}
+.image-list{
+    display: flex;
+    gap: 62px;
+}
+.images{
+    position: absolute;
+    top: 1035px;
+  
+}
+.container2 {
+    width: 865px;
+    margin: 0 auto;
+}
+
+.xizmat-wrap h2 {
+    padding-bottom: 33px;
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.xizmat-wrap h3 {
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.xizmat-wrap p {
+    width: 600px;
+    padding-top: 24px;
+    color: #444;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.hijoma {
+    display: flex;
+    gap: 65px;
+}
+
+.hijoma-text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.hijoma:nth-child(3) {
+    padding-top: 118px;
+    padding-bottom: 94px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.map {
+    padding-top: 285px;
+    background: #0EB4C1;
+    padding-bottom: 55px;
+}
+
+.map-wrap {
+    display: flex;
+   justify-content: space-between;
+    align-items: end;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 331px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+form input:nth-child(1) {
+    margin-top: 28px;
+}
+
+form input:nth-child(4) {
+    margin-bottom: 15px;
+}
+
+form input {
+    color: #3D3B48;
+    font-family: Poppins;
+    font-size: 14px;
+    padding-left: 32px;
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 460px;
+    height: 39.105px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+}
+
+form input:hover {
+    color: #3D3B48;
+    border: 1px solid #5E54A4;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 173.333% */
+    letter-spacing: 1px;
+    border: none;
+    margin-top: 14px;
+    width: 460px;
+    height: 39.105px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.09) inset;
+    margin: 0 auto;
+}
+
+footer {
+    background: #222;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.list2 li a {
+    color: #FFF;
+
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.list2 li a:hover {
+    color: #DE2E54;
+    transition: 0.5s ease-in-out;
+}
